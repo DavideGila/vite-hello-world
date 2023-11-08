@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>{{ appTitle }}</h1>
   </div>
 </template>
 
@@ -7,7 +8,7 @@
 export default {
   data () {
     return {
-
+      appTitle: 'La mia prima app con Vite!'
     }
   }
 }
